@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "load_data",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib pandas tensorflow",
+      "run": "pytest tests/test_load_data.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "split_data",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib pandas tensorflow",
+      "run": "pytest tests/test_split_data.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "build_baseline",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib pandas tensorflow",
+      "run": "pytest tests/test_build_baseline.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "train_model",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib pandas tensorflow",
+      "run": "pytest tests/test_train_model.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "evaluate_model",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib pandas tensorflow",
+      "run": "pytest tests/test_evaluate_model.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "classify_mushrooms",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib pandas tensorflow",
+      "run": "pytest tests/test_classify_mushrooms.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "performance",
+      "setup": "sudo -H pip3 install pytest scikit-learn numpy matplotlib pandas tensorflow",
+      "run": "pytest tests/test_performance.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
